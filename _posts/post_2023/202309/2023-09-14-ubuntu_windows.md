@@ -53,3 +53,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 
 > 예쁘긴 한데 문제는 vscode에서 터미널을 불러와서 사용해 봤는데 커맨드를 명령하면 그 뒤에 나온는 반응이 좀 느리다. 불편할꺼 같아서 아마도 사용하지 않을꺼 같다. 다만, 추후에 사용할 수 도 있으니 글로 남겨둔다.  
+
+### Git bash를 이용한 꾸미기
+
+아래 링크를 설명된 블로그 글을 따라하면 쉽게 설치가 가능했다.  
+[Git bash를 이용한 꾸미기 링크](https://doda.tistory.com/entry/Windows-git-bash%EC%97%90-zsh-oh-my-zsh)
