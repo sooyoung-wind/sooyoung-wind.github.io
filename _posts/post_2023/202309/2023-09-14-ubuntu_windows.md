@@ -58,3 +58,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 아래 링크를 설명된 블로그 글을 따라하면 쉽게 설치가 가능했다.  
 [Git bash를 이용한 꾸미기 링크](https://doda.tistory.com/entry/Windows-git-bash%EC%97%90-zsh-oh-my-zsh)
+
+
+### Windows PowerShell 꾸미기  
+
+아래 링크를 설명된 블로그 글을 따라하면 쉽게 설치가 가능했다.  
+[눈이 편안 터미널 만들기](https://omoknooni.tistory.com/44)
