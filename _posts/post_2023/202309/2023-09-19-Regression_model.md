@@ -100,7 +100,7 @@ $$\beta^2$$에 penalty term을 부여하는 방식을 $$L_2-norm = L_2$$ Regular
     - Ridge Regression은 Feature의 크기가 결과에 큰 영향을 미치기 때문에 Scaling이 중요함  
     - 다중공선성(Multicollinearity) 방지에 가장 많이 쓰임  
 
-실습 코드 : [링크](https://github.com/sooyoung-wind/sooyoung-wind.github.io/blob/main/ipynb/Chap01.07.Regularized%20Model-Ridge%20Code%20%EC%8B%A4%EC%8A%B5.ipynb)
+실습 코드 : [링크](https://github.com/sooyoung-wind/sooyoung-wind.github.io/blob/main/ipynb/ML_Basic_Course/Chap01.07.Regularized%20Model-Ridge%20Code%20%EC%8B%A4%EC%8A%B5.ipynb)
 
 ### Regularized Model - LASSO  
 
@@ -120,7 +120,7 @@ Gradient Descent : 경사 하강법
 
 ![Ridge와 Lasso의 장단점](/assets/img/my_photo/ML_0006.png)  
 
-실습 코드 : [링크](https://github.com/sooyoung-wind/sooyoung-wind.github.io/blob/main/ipynb/Chap01.09.Regularized%20Model-LASSO%20Code%20%EC%8B%A4%EC%8A%B5.ipynb)
+실습 코드 : [링크](https://github.com/sooyoung-wind/sooyoung-wind.github.io/blob/main/ipynb/ML_Basic_Course/Chap01.09.Regularized%20Model-LASSO%20Code%20%EC%8B%A4%EC%8A%B5.ipynb)
 
 > **[Data Split]**
 > Data를 Split할 때는 BigData의 경우 꼭 indexing을 추출하여 모델에 적용해야 메모리 관리에 좋다.  
