@@ -49,15 +49,15 @@ Feature Scaling
 + Scaling을 통해서 피처들의 크기를 맞춤  
 + 피처의 스케일과 무관한 모델들도 있음(e.g. LightGBM)  
 + Min-Max Scaling(0~1)  
-$$x' = {{x - x_{min}} \over {x_{max} - x_{min}}}$$
+$$x' = {{x - x_{min}} \over {x_{max} - x_{min}}}$$  
 + Standard Scaling($$-\infty$$ ~ $$\infty$$)  
 
-$$x' = {{x - x_{mean}} \over {x_{std}}}$$
+$$x' = {{x - x_{mean}} \over {x_{std}}}$$  
 
-+ Robust scaling(로버스트 스케일)
-	+ IQR = $${x_{q75} - x_{q25}}$$
-	+ $$x_{q50}$$ 를 평균 또는 중위수로 사용 가능
-$$x' = {{x - x_{q50}} \over {x_{q75} - x_{q25}}}$$
++ Robust scaling(로버스트 스케일)  
+	+ IQR = $${x_{q75} - x_{q25}}$$  
+	+ $$x_{q50}$$ 를 평균 또는 중위수로 사용 가능  
+$$x' = {{x - x_{q50}} \over {x_{q75} - x_{q25}}}$$  
 
 
 nominal feature : 명목형 데이터로 명칭만 목록 형태로 나타난 데이터
