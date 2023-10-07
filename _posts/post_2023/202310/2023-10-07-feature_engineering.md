@@ -24,12 +24,6 @@ sitemap:
 
 ### 📝메모 
 
-피처 엔지니어링(Feature Engineering)
-+ 피처 엔지니어링은 목적에 맞게 가공하는 과정이다. 
-+ 분석가는 데이터에서 분석에 필요한 피처를 추출하여 모델링에 사용한다.
-+ 어떤 피처를 추출하느냐는 모델링을 통한 피드백과 분석가의 직관에 의해 이루어진다.
-+ 피처를 잘못 선택했을 때 발생하는 문제점들에 대해 인지한다.
-
 모델링을 통한 피드백(evaluation metric) -> 코드 또는 모델 무작위 수행 관점
 분석가의 직관(domain knowledge = data literacy) -> 도메인 지식에 의존
 
@@ -43,9 +37,7 @@ sitemap:
 	+ feature selection
 + PCA(Principal Component Analysis), AutoEncoder(non-linear PCA) 등을 많이 사용
 
-space grow exponentially 예시 -> 차원이 늘어날 수록 점차 표현할 수 있는 공간이 줄어든다. 2차원에서 (1,0)은 $x_1$이 1이지만 $x_2$가 0이므로 $x_2$가 없기 때문에 결국 1차원 데이터이다. 따라서 2차원에서는 원의 방정식과 유사하게 $x_{1}^2 + x_{2}^2 = y^2$의 영역에서만 2개의 데이터로 표현할 수 있다는 뜻이다.
-
-![[Pasted image 20231005161915.png]]
+space grow exponentially 예시 -> 차원이 늘어날 수록 점차 표현할 수 있는 공간이 줄어든다. 2차원에서 (1,0)은 $$x_1$$이 1이지만 $$x_2$$가 0이므로 $$x_2$$가 없기 때문에 결국 1차원 데이터이다. 따라서 2차원에서는 원의 방정식과 유사하게 $$x_{1}^2 + x_{2}^2 = y^2$$의 영역에서만 2개의 데이터로 표현할 수 있다는 뜻이다.
 
 
 상관관계 vs. 인과관계
@@ -54,17 +46,17 @@ space grow exponentially 예시 -> 차원이 늘어날 수록 점차 표현할 �
 Feature Scaling
 + 서로 다른 feature들이 갑을 가지는 범위가 달라서 모델링에서 문제가 발생할 수 있음
 + Feature끼리 비교하려면 동일한 범위 내에 존재해야 함
-+ Scaling을 통해서 피처들의 크기를 맞춤
-+ 피처의 스케일과 무관한 모델들도 있음(e.g. LightGBM)
-+ Min-Max Scaling(0~1)
++ Scaling을 통해서 피처들의 크기를 맞춤  
++ 피처의 스케일과 무관한 모델들도 있음(e.g. LightGBM)  
++ Min-Max Scaling(0~1)  
 $$x' = {{x - x_{min}} \over {x_{max} - x_{min}}}$$
-+ Standard Scaling($-\infty$ ~ $\infty$)
++ Standard Scaling($$-\infty$$ ~ $$\infty$$)  
 
 $$x' = {{x - x_{mean}} \over {x_{std}}}$$
 
 + Robust scaling(로버스트 스케일)
-	+ IQR = ${x_{q75} - x_{q25}}$
-	+ $x_{q50}$ 를 평균 또는 중위수로 사용 가능
+	+ IQR = $${x_{q75} - x_{q25}}$$
+	+ $$x_{q50}$$ 를 평균 또는 중위수로 사용 가능
 $$x' = {{x - x_{q50}} \over {x_{q75} - x_{q25}}}$$
 
 
