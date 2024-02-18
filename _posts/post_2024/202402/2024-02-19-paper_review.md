@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 논문 리뷰(DoRA, Weight-Decomposed Low-Rank Adaptation)  
-tags: [NLP, LLM, PEFT]
-categories: [NLP, LLM, PEFT]
+tags: [NLP, PEFT, review]
+categories: [review]
 sitemap:
   changefreq: daily
   priority : 1.0
