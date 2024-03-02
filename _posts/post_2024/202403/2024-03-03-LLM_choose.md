@@ -52,5 +52,8 @@ Test Loss vs. Parameters
 $$L = \left( \frac{N}{8.8 \cdot 10^3} \right)^{-0.076}$$
 
 ![그림](/assets/img/my_photo/Post_20240303_1.png)  
+[Kaplan et al, “Scaling Laws for Neural Language Models”, OpenAI, 2020](https://arxiv.org/pdf/2001.08361.pdf)  
 
-
+아래 그림은 GPT3 모델를 위해서 최적의 파라미터를 추정하기 위한 실험 결과입니다.   
+![그림](/assets/img/my_photo/Post_20240303_2.png)    
+[Brown et al, “Language Models are Few-Shot Learners”, NeurIPS, 2020](https://arxiv.org/pdf/2005.14165.pdf)
